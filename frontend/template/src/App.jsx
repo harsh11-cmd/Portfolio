@@ -139,9 +139,9 @@ function App() {
                 <span className="project-number">0{index + 1}</span>
                 <div className="project-links">
                   <a href={project.github} target="_blank" rel="noreferrer">GitHub ↗</a>
-                  {project.live !== '#' && (
+                  {/* {project.live !== '#' && (
                     <a href={project.live} target="_blank" rel="noreferrer">Live ↗</a>
-                  )}
+                  )} */}
                 </div>
               </div>
               <h3>{project.title}</h3>
