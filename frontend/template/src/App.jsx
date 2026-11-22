@@ -20,20 +20,25 @@ function App() {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const res = await fetch(`${API_URL}/api/contact`, {
+      const res = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          access_key: 'ff5b0667-25d2-477e-bfc3-2fe15cc357c3',
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        }),
       });
       const data = await res.json();
       if (data.success) {
         setStatus('Thank you! Your message has been sent.');
         setForm({ name: '', email: '', message: '' });
       } else {
-        setStatus(data.error || 'Something went wrong.');
+        setStatus('Something went wrong. Please try again.');
       }
     } catch {
-      setStatus('Server error. Make sure backend is running.');
+      setStatus('Network error. Try again later.');
     }
   };
 
