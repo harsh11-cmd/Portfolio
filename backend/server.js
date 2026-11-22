@@ -11,6 +11,15 @@ app.use(express.json());
 const projects = [
   {
     id: 1,
+    title: "Task View - Task Management App",
+    tech: "React, Node.js, Express, MongoDB, Tailwind",
+    description: "A task management application with user authentication and CRUD operations.",
+    github: "",
+    //live: "https://your-demo-link.vercel.app"
+
+  },
+  {
+    id: 2,
     title: "Full-Stack Job Portal",
     tech: "React, Node.js, Express, MongoDB, Tailwind",
     description: "Role-based recruitment platform with dynamic location filters and image uploads.",
@@ -18,15 +27,15 @@ const projects = [
     //live: "https://your-demo-link.vercel.app"
   },
   {
-    id: 2,
+    id: 3,
     title: "Venue Booking & Hall Management",
-    tech: "ASP.NET Core, SQL Server, Bootstrap",
+    tech: "HTML, CSS, ASP.NET Core, MySQL",
     description: "End-to-end hall reservation and scheduling management system.",
     github: "https://github.com/yourusername/venue-booking",
     //live: "#"
   },
   {
-    id: 3,
+    id: 4,
     title: "Placement Process Management System",
     tech: "PHP, MySQL, HTML, CSS",
     description: "Campus placement portal supporting students, faculty coordinators, and recruiters.",
