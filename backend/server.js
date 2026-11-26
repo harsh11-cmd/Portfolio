@@ -18,16 +18,16 @@ const projects = [
     //live: "https://your-demo-link.vercel.app"
 
   },
+  // {
+  //   id: 2,
+  //   title: "Full-Stack Job Portal",
+  //   tech: "React, Node.js, Express, MongoDB, Tailwind",
+  //   description: "Role-based recruitment platform with dynamic location filters and image uploads.",
+  //   github: "https://github.com/harsh11-cmd/Job-Portal-Mern",
+  //   //live: "https://your-demo-link.vercel.app"
+  // },
   {
     id: 2,
-    title: "Full-Stack Job Portal",
-    tech: "React, Node.js, Express, MongoDB, Tailwind",
-    description: "Role-based recruitment platform with dynamic location filters and image uploads.",
-    github: "https://github.com/harsh11-cmd/Job-Portal-Mern",
-    //live: "https://your-demo-link.vercel.app"
-  },
-  {
-    id: 3,
     title: "Venue Booking & Hall Management",
     tech: "HTML, CSS, ASP.NET Core, MySQL",
     description: "End-to-end hall reservation and scheduling management system.",
@@ -35,7 +35,7 @@ const projects = [
     //live: "#"
   },
   {
-    id: 4,
+    id: 3,
     title: "Placement Process Management System",
     tech: "PHP, MySQL, HTML, CSS",
     description: "Campus placement portal supporting students, faculty coordinators, and recruiters.",

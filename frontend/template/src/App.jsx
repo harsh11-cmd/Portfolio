@@ -119,6 +119,7 @@ function App() {
               <span>MySQL</span>
               <span>Drizzle</span>
               <span>Prisma</span>
+              <span>GraphQL</span>
               <span>Git & GitHub</span>
             </div>
           </div>
@@ -138,7 +139,7 @@ function App() {
               <div className="project-top">
                 <span className="project-number">0{index + 1}</span>
                 <div className="project-links">
-                  <a href={project.github} target="_blank" rel="noreferrer">GitHub ↗</a>
+                  {/* <a href={project.github} target="_blank" rel="noreferrer">GitHub ↗</a> */}
                   {/* {project.live !== '#' && (
                     <a href={project.live} target="_blank" rel="noreferrer">Live ↗</a>
                   )} */}
