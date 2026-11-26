@@ -191,7 +191,7 @@ function App() {
               <div className="social-links">
                 <a href="https://github.com/harsh11-cmd" target="_blank" rel="noreferrer">GitHub</a>
                 <span>•</span>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/harsh-dabhi-475364392/" target="_blank" rel="noreferrer">LinkedIn</a>
               </div>
             </div>
           </div>
